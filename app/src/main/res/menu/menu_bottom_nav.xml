@@ -2,26 +2,29 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
- <item android:title="News"
-     android:icon="@drawable/baseline_newspaper"
-     android:id="@+id/mNews"
-     app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/mNews"
+        android:icon="@drawable/baseline_newspaper"
+        android:title="News"
+        app:showAsAction="ifRoom" />
 
-    <item android:title="Global"
-        android:icon="@drawable/baseline_language"
+    <item
         android:id="@+id/mGlobal"
-        app:showAsAction="ifRoom"/>
+        android:icon="@drawable/baseline_language"
+        android:title="Global"
+        app:showAsAction="ifRoom" />
 
-    <item android:title="ForYou"
-        android:icon="@drawable/baseline_star_border"
+    <item
         android:id="@+id/mForYou"
-        app:showAsAction="ifRoom"/>
+        android:icon="@drawable/baseline_star_border"
+        android:title="ForYou"
+        app:showAsAction="ifRoom" />
 
-    <item android:title="Trending"
-        android:icon="@drawable/baseline_leaderboard"
+    <item
         android:id="@+id/mTrending"
-        app:showAsAction="ifRoom"/>
-
+        android:icon="@drawable/baseline_leaderboard"
+        android:title="Trending"
+        app:showAsAction="ifRoom" />
 
 
 </menu>
