@@ -14,15 +14,21 @@
         android:layout_height="100dp"
         android:layout_gravity="center_vertical|center_horizontal"
         android:scaleType="centerCrop"
-        android:src="@drawable/whatsapp_logo"
-
+        android:src="@drawable/whatsapp_logo"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="60sp"
+        android:text="From"/>
 
     <ImageView
         android:id="@+id/idMeta"
-        android:layout_width="100dp"
-        android:layout_height="80dp"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:scaleType=""
-        android:src="@drawable/meta_logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:scaleType="centerCrop"
+        android:src="@drawable/meta_logo"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
