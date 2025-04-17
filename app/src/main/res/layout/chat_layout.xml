@@ -15,7 +15,7 @@
         <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/idAppBar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"/>
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/idMenuChat"
@@ -29,24 +29,22 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/idMenuChat"
             android:drawableStart="@drawable/baseline_search"
             android:drawablePadding="18dp"
             android:hint="@string/pergunte_meta_ai_ou_pesquise"
             android:inputType="textPersonName"
-            android:layout_below="@id/idMenuChat"
             android:padding="20sp" />
-
-
     </RelativeLayout>
 
 
-<com.google.android.material.bottomnavigation.BottomNavigationView
-android:id="@+id/idBottomNav"
-android:layout_gravity="bottom"
-android:layout_height="wrap_content"
-android:layout_width="match_parent"
-app:labelVisibilityMode="labeled"
-app:menu="@menu/menu_bottom_chat" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/idBottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/menu_bottom_chat" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
