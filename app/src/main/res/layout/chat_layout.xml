@@ -40,8 +40,6 @@
     </RelativeLayout>
 
 
-
-
 <com.google.android.material.bottomnavigation.BottomNavigationView
 android:id="@+id/idBottomNav"
 android:layout_gravity="bottom"
@@ -50,6 +48,5 @@ android:layout_width="match_parent"
 app:labelVisibilityMode="labeled"
 app:menu="@menu/menu_bottom_chat" />
 
-
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
 
